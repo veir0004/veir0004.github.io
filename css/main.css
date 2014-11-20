@@ -216,7 +216,7 @@ display:block;
 }
 
 .grayscale{ 
-  border: 2px solid black;
+  
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
