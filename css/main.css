@@ -82,16 +82,16 @@ header .overlay {
 
 h3{
 	font-weight:700;
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
+	
 }
-
 p{
 	font-weight:400;
 	font-size:16px;
 }
 
 img{
-  margin-right:20px;
+  margin-right:20px
 }
 .navbar {
   padding: 1em 0;
@@ -99,7 +99,7 @@ img{
   background-color: #efefef;
   font-size: .8em;
   color: #FFFFFF;
-  position:relative;
+  position:relative
 }
 .navbar a {
   color: #666;
@@ -114,16 +114,16 @@ img{
   top:0;
   left:0;
   background:#222;
-  width:100%;
+  width:100%
 }
 .navbar nav a{
   padding:10px 30px;
   font-size:1.3em;
-  display:inline-block;
+  display:inline-block
 }
 .navbar nav a:hover{
   background:#333;
-  color:#fff;
+  color:#fff
 }
 
 li {
@@ -140,7 +140,7 @@ li {
 
 #content1, /* # hooks an ID */
 #content2,
-#content3; {
+#content3 {
 	clear: both;   /* Will stack after each other if their children have floats */
 	padding: 6rem 5%;
 }
@@ -153,11 +153,13 @@ li {
 /* --------------------------------------------------------------------- Contact */
 #content3 {
 	background-color:#fff;
-	padding-left: 25em;
 }
 
 
+section{
 
+	padding-left:25em;
+}
 
 /*social Icons*/
 
@@ -214,16 +216,16 @@ display:block;
 
 .grayscale{ 
   border: 2px solid black;
-    filter: grayscale 100%;
+    filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
 }
 
 .grayscale:hover { 
-    filter: grayscale 0%;
-    -webkit-filter: grayscale 0%;
- 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
 }
 
 ul.img-list {
