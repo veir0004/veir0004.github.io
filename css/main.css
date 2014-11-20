@@ -245,8 +245,8 @@ input[name='panel'] + .collapsible {
 
 input[name='panel']:checked + .collapsible {
   overflow: auto;
-  height: 200px;
-  width: 400px; /* needs a numeric value here to keep transition */
+  height: 600px;
+  width: 600px; /* needs a numeric value here to keep transition */
 }
 
 .grid {
