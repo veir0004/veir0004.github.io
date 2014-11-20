@@ -99,7 +99,8 @@ img{
   background-color: #efefef;
   font-size: .8em;
   color: #FFFFFF;
-  position:relative
+  position:relative;
+  z-index: 1000;
 }
 .navbar a {
   color: #666;
@@ -234,13 +235,17 @@ ul.img-list {
   padding: 0;
   text-align: center;
 }
+
+ul.img-list img {
+	width: 100%;
+}
  
 ul.img-list li {
   display: inline;
   height: 150px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 150px;
+  width: 100%;
 }
  
 span.text-content span {
@@ -262,7 +267,7 @@ span.text-content {
   left: 0;
   position: absolute;
   top: 0;
-  width: 304px;
+  width: 100%;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -545,8 +550,6 @@ input[name='panel']:checked + .collapsible {
   display: inline-block;
   visibility: visible;
 }
-
-
 
 }
 
