@@ -149,16 +149,70 @@ li {
 	background-color: #ccc;	/* etc. */
 }
 
+
+/* --------------------------------------------------------------------- Contact */
+#content3 {
+	background-color:#ffff;
+}
+
+
+section{
+
+	padding-left:25em;
+}
+
+/*social Icons*/
+
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+display:block;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display:inline-block;
+	float:left;
+	width: 40px;
+	height: 40px;
+	margin-right: 1rem;
+	text-align:center;
+	padding-top: 0.8125rem;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	
+	color:#FFF;
+	/*background-color: #222;*/
+	
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #67279A;
+	-moz-box-shadow: inset 0px 0px 0px 3px #67279A;
+	-ms-box-shadow: inset 0px 0px 0px 3px #67279A;
+	-o-box-shadow: inset 0px 0px 0px 3px #67279A;
+	box-shadow: inset 0px 0px 0px 3px #67279A;
+	color: #67279A;
+}
+
+/* --------------------------------------------------------------------- porfolio */
 #content2 {
 	background-color: #FFF;
 	padding-left: -2rem;
 }
-
-#content3 {
-	background-color:#FF0;
-}
-
-/* --------------------------------------------------------------------- porfolio */
 
 .grayscale{ 
   border: 2px solid black;
@@ -379,7 +433,6 @@ input[name='panel']:checked + .collapsible {
   background:#333;
   color:#fff
 }
-
 	
 }
 
@@ -704,4 +757,5 @@ input[name='panel']:checked + .collapsible {
 	color: #FFF;
 	text-decoration: none;
 }	
+
 
