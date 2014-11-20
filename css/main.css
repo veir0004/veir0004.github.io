@@ -91,7 +91,7 @@ p{
 }
 
 img{
-  margin-right:20px
+  margin-right:20px;
 }
 .navbar {
   padding: 1em 0;
@@ -99,7 +99,7 @@ img{
   background-color: #efefef;
   font-size: .8em;
   color: #FFFFFF;
-  position:relative
+  position:relative;
 }
 .navbar a {
   color: #666;
@@ -114,16 +114,16 @@ img{
   top:0;
   left:0;
   background:#222;
-  width:100%
+  width:100%;
 }
 .navbar nav a{
   padding:10px 30px;
   font-size:1.3em;
-  display:inline-block
+  display:inline-block;
 }
 .navbar nav a:hover{
   background:#333;
-  color:#fff
+  color:#fff;
 }
 
 li {
@@ -152,7 +152,7 @@ li {
 
 /* --------------------------------------------------------------------- Contact */
 #content3 {
-	background-color:#ffff;
+	background-color:#fff;
 }
 
 
@@ -211,21 +211,21 @@ display:block;
 /* --------------------------------------------------------------------- porfolio */
 #content2 {
 	background-color: #FFF;
-	padding-left: -2rem;
+	padding-left: 2rem;
 }
 
 .grayscale{ 
   border: 2px solid black;
-    filter: grayscale(100%);
+    filter: grayscale 100%;
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
 }
 
 .grayscale:hover { 
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    filter: none;
+    filter: grayscale 0%;
+    -webkit-filter: grayscale 0%;
+ 
 }
 
 ul.img-list {
