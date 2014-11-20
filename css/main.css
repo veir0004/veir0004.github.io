@@ -82,9 +82,9 @@ header .overlay {
 
 h3{
 	font-weight:700;
-	font-family: 'Raleway', sans-serif;
-	
+	font-family: 'Raleway', sans-serif;	
 }
+
 p{
 	font-weight:400;
 	font-size:16px;
@@ -140,7 +140,7 @@ li {
 
 #content1, /* # hooks an ID */
 #content2,
-#content3 {
+#content3; {
 	clear: both;   /* Will stack after each other if their children have floats */
 	padding: 6rem 5%;
 }
@@ -153,13 +153,11 @@ li {
 /* --------------------------------------------------------------------- Contact */
 #content3 {
 	background-color:#fff;
+	padding-left: 25em;
 }
 
 
-section{
 
-	padding-left:25em;
-}
 
 /*social Icons*/
 
