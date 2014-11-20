@@ -93,7 +93,7 @@ p{
 img{
   margin-right:20px
 }
-.site {
+.navbar {
   padding: 1em 0;
   text-align: center;
   background-color: #efefef;
@@ -101,27 +101,27 @@ img{
   color: #FFFFFF;
   position:relative
 }
-.site a {
+.navbar a {
   color: #666;
   text-decoration: none;
 }
-.site a:hover {
+.navbar a:hover {
   color: #222;
 }
 
-.site nav{
+.navbar nav{
   position:absolute;
   top:0;
   left:0;
   background:#222;
   width:100%
 }
-.site nav a{
+.navbar nav a{
   padding:10px 30px;
   font-size:1.3em;
   display:inline-block
 }
-.site nav a:hover{
+.navbar nav a:hover{
   background:#333;
   color:#fff
 }
@@ -409,27 +409,27 @@ input[name='panel']:checked + .collapsible {
 }
 @media only screen and (min-width: 22em) {
 
-.site a {
+.navbar a {
   color: #666;
   text-decoration: none;
 }
-.site a:hover {
+.navbar a:hover {
   color: #222;
 }
 
-.site nav{
+.navbar nav{
   position:absolute;
   top:0;
   left:0;
   background:#222;
   width:100%
 }
-.site nav a{
+.navbar nav a{
   padding:30px 10px;
   font-size:14px;
   display:inline-block
 }
-.site nav a:hover{
+.navbar nav a:hover{
   background:#333;
   color:#fff
 }
