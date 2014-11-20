@@ -130,6 +130,7 @@ li {
 	display:inline-block;
 }
 
+
 /* --------------------------------------------------------------------- About Me */
 
 .wrapper {
@@ -352,6 +353,35 @@ input[name='panel']:checked + .collapsible {
   display: inline-block;
   visibility: visible;
 }
+@media only screen and (min-width: 22em) {
+
+.site a {
+  color: #666;
+  text-decoration: none;
+}
+.site a:hover {
+  color: #222;
+}
+
+.site nav{
+  position:absolute;
+  top:0;
+  left:0;
+  background:#222;
+  width:100%
+}
+.site nav a{
+  padding:30px 10px;
+  font-size:14px;
+  display:inline-block
+}
+.site nav a:hover{
+  background:#333;
+  color:#fff
+}
+
+	
+}
 
 @media only screen and (min-width: 30em) {
 
@@ -462,6 +492,8 @@ input[name='panel']:checked + .collapsible {
   display: inline-block;
   visibility: visible;
 }
+
+
 
 }
 
