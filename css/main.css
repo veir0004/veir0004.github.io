@@ -138,7 +138,7 @@ li {
 }
 
 #content2 {
-	background-color: #0F0;
+	background-color: #FFF;
 	padding-left: -2rem;
 }
 
@@ -149,7 +149,7 @@ li {
 /* --------------------------------------------------------------------- porfolio */
 
 .grayscale{ 
-  border: 2px solid white;
+  border: 2px solid black;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
@@ -189,14 +189,14 @@ ul.img-list li:hover span.text-content {
 }
 
 span.text-content {
-  background:#8626DF;
+  background:#67279A;
   color: white;
   display: table;
   height: 50px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 404px;
+  width: 304px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
