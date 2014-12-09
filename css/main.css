@@ -81,8 +81,12 @@ header .overlay {
 }
 
 h3{
-	font-weight:700;
+	margin: 0;
+  	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
+	color:#FFFFFF;
+	text-transform: uppercase;
+  	margin-top: -.5em;
 	
 }
 p{
@@ -131,6 +135,12 @@ li {
 	display:inline-block;
 }
 
+.contact {
+	padding-left: 4em; 
+	padding-right: 4em;
+}
+
+
 
 /* --------------------------------------------------------------------- About Me */
 
@@ -143,13 +153,12 @@ li {
 #content2,
 #content3 {
 	clear: both;   /* Will stack after each other if their children have floats */
-	padding: 6rem 5%;
+	padding: 4rem 5%;
 }
 
 #content1 {
 	background-color: #ccc;	/* etc. */
 }
-
 
 /* --------------------------------------------------------------------- Contact */
 #content3 {
@@ -159,7 +168,7 @@ li {
 
 section{
 
-	padding-left:25em;
+	
 }
 
 /*social Icons*/
@@ -201,12 +210,12 @@ display:block;
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #67279A;
-	-moz-box-shadow: inset 0px 0px 0px 3px #67279A;
-	-ms-box-shadow: inset 0px 0px 0px 3px #67279A;
-	-o-box-shadow: inset 0px 0px 0px 3px #67279A;
-	box-shadow: inset 0px 0px 0px 3px #67279A;
-	color: #67279A;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	-moz-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	-ms-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	-o-box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	box-shadow: inset 0px 0px 0px 3px #FFFFFF;
+	color: #FFFFFF;
 }
 
 /* --------------------------------------------------------------------- porfolio */
@@ -554,6 +563,10 @@ input[name='panel']:checked + .collapsible {
 }
 
 @media only screen and (min-width: 50em) {
+
+.aboutme{
+	padding-left: 20em;
+}
 
 .unit-l-hidden {
   display: none;
