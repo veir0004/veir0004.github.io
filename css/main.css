@@ -139,7 +139,42 @@ li {
 	text-align:center; 
 }
 
+.error {
+	 height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image:url(../images/cloudscape.jpg);
+  /* Image Credit: Unsplash.me */
+  background-size: cover;
+  text-align:center;
+  padding-top: 5em;
+}
 
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  background:#000000;
+  padding: 18px 27px 18px 27px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #67279A;
+  text-decoration: none;
+}
+
+.yotta {
+  font-size: 16px;
+  line-height: 1.3154;
+}
+
+.button {
+	text-align: center;
+	padding-top: 10em;
+}
 
 /* --------------------------------------------------------------------- About Me */
 
