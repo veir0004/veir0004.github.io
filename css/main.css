@@ -51,7 +51,7 @@ header h2 {
   text-transform: uppercase;
   margin-top: -.5em;
 }
-header hgroup {
+header .hgroup {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -133,6 +133,7 @@ img{
 
 .li {
 	display:inline-block;
+	text-align:center;
 }
 
 .contact {
@@ -199,10 +200,12 @@ img{
 	background-color:#67279A;
 }
 
-
+.ul {
+	text-align:center;
+}
 section{
-
-	
+	text-align: center;
+	align-self:center;
 }
 
 /*social Icons*/
@@ -214,11 +217,16 @@ overflow: hidden;
 display:block;
 }
 
+.social li{
+	display:inline-block;
+}
+
+
 .social li a,
 .social li a:link,
 .social li a:visited{
 	display:inline-block;
-	float:left;
+	
 	width: 40px;
 	height: 40px;
 	margin-right: 1rem;
