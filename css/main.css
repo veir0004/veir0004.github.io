@@ -463,6 +463,8 @@ input[name='panel']:checked + .collapsible {
   display: inline-block;
   visibility: visible;
 }
+
+
 @media only screen and (min-width: 22em) {
 
 .navbar a {
@@ -836,8 +838,13 @@ input[name='panel']:checked + .collapsible {
 	display:inline-block;
 }
 
+.vidsection {
+	background-color:#F1F1F1;
+	clear: both;   /* Will stack after each other if their children have floats */
+	padding: 4rem 5%
 }
 
+}
 
 /* --------------------------------------------------------------------- Footer */
 
